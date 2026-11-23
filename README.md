@@ -9,6 +9,22 @@
 
 ---
 
+## 🖥️ Interactive Visual Demo (1-Command Launch)
+
+![Commodity & Logistics MLOps Engine — Live Demo Preview](docs/preview.png)
+
+Launch the interactive Damped Holt-Winters demand forecasting & IsolationForest freight anomaly detection dashboard preloaded with **100% synthetic telemetry**:
+
+```bash
+git clone https://github.com/Wenderson-Werneck/commodity-mlops-engine.git
+cd commodity-mlops-engine
+pip install -r requirements.txt
+python demo_app.py
+# Open http://127.0.0.1:8003
+```
+
+---
+
 ## 📌 Executive Summary
 
 In industrial bulk commodities (alloys, chemicals, mining, and heavy smelting), supply chain logistics represent up to **30% of total operational expenditure**. Inbound international shipments typically suffer from long maritime lead times, exposing manufacturing facilities to two major financial risks:
